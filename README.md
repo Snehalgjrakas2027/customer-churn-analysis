@@ -18,15 +18,6 @@ customer-churn-analysis/
 │   ├── 02_eda_visualization.ipynb               # Exploratory Data Analysis (EDA)
 │   └── 03_modeling.ipynb                        # Model training and evaluation
 │
-├── scripts/
-│   └── churn_prediction.py                      # Model training script (Python script version)
-│
-├── plots/
-│   ├── churn_distribution.png
-│   ├── contract_vs_churn.png
-│   ├── roc_curve.png
-│   └── confusion_matrix.png
-│
 ├── README.md                                     # Project documentation
 └── requirements.txt                              # List of required packages
 ```
@@ -90,7 +81,6 @@ customer-churn-analysis/
 * Boxplots of tenure and monthly charges by churn
 * ROC Curve and confusion matrix
 
-*Screenshots of plots can be found in the `/plots` folder.*
 
 ---
 
@@ -111,12 +101,6 @@ Use Jupyter or VS Code to open and run the following:
 1. `notebooks/01_data_cleaning.ipynb`
 2. `notebooks/02_eda_visualization.ipynb`
 3. `notebooks/03_modeling.ipynb`
-
-### Run Model Script (optional)
-
-```bash
-python scripts/churn_prediction.py
-```
 
 ---
 
